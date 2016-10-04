@@ -17,7 +17,7 @@ public class TablaAscii {
     public static void main(String[] args) {
         // TODO code application logic here
         for (int i=0; i<=255; i++) {
-          System.out.print(i + " -> ");
+          System.out.print(i + ":");
           System.out.println(Character.toString ((char) i));
         }
         
